@@ -279,6 +279,9 @@ footer {
     list-style: none;
     margin-left: 0px;
   }
+  .featured-section-title {
+    margin-top: 30px;
+  }
   .highlighted-features-section {
     flex-direction: row;
   }
