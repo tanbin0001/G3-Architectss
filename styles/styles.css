@@ -1,0 +1,332 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* common styles */
+
+.primary-btn {
+  color: white;
+  background: #ff900e;
+  border-radius: 8px;
+  width: 180px;
+  height: 64px;
+  border: none;
+}
+
+/* header and navigation styles */
+.header {
+  background-color: rgba(255, 144, 14, 0.1);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 108px;
+  overflow: hidden;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav li {
+  list-style: none;
+  margin-left: 50px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+.nav ul li {
+  font-size: 18px;
+}
+
+.nav-title {
+  font-weight: 700;
+  font-size: 35px;
+}
+
+/* New Architects Section  */
+.banner {
+  text-align: center;
+}
+
+.banner-img img {
+  margin: 0;
+  padding: 45px 0;
+  width: 1000px;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 64px;
+}
+.banner-description {
+  color: #727272;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 32px 0;
+}
+/* Features Section styles */
+
+.featured-section {
+  margin: 50px 150px;
+  display: flex;
+  align-items: center;
+}
+.featured-section-title {
+  font-weight: 700;
+  font-size: 45px;
+}
+.featured-section-description {
+  color: #727272;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 32px 0;
+}
+.featured-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 24px;
+}
+.featured-img img {
+  height: 237px;
+  left: 237px;
+}
+.featured-content {
+  padding-left: 73px;
+}
+
+/* highlighted-features section */
+
+.highlighted-features-section {
+  display: flex;
+  margin: 96px 100px 130px 195px;
+}
+.highlighted-features-title {
+  border-left: 5px solid #ff900e;
+  font-weight: 700;
+  font-size: 45px;
+  padding-left: 10px;
+}
+.highlighted-features-description {
+  color: #727272;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 25px 0;
+}
+.highlighted-features-img img {
+  width: 500px;
+  height: 850px;
+  padding-left: 54px;
+}
+/* one single feature style */
+.feature {
+  margin: 20px 0;
+  padding: 20px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+}
+.feature-title {
+  font-weight: 600;
+  font-size: 20px;
+}
+.feature-description {
+  color: #727272;
+  font-weight: 400;
+  font-size: 16px;
+  padding-top: 10px;
+}
+.experience-btn {
+  width: 300px;
+  height: 190.42px;
+  background: #ff900e;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  margin-top: -50px;
+  margin-left: 20px;
+}
+
+/* some facts section */
+.facts-sections {
+  margin: 0 140px;
+}
+.facts-title {
+  font-weight: 700;
+  font-size: 45px;
+}
+.facts-description {
+  color: #727272;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 24px 0;
+}
+
+.facts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 50px;
+  text-align: center;
+}
+.fact {
+  padding: 20px 20px;
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.fact:hover {
+  transform: rotate(90deg);
+}
+.fact-title {
+  color: #424242;
+  font-weight: 600;
+  font-size: 20px;
+}
+.fact-description {
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+/* Our sponsors section styles */
+.sponsors {
+  text-align: center;
+}
+
+.sponsors-section-title {
+  font-weight: 700;
+  font-size: 45px;
+}
+.sponsors-description {
+  color: #727272;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 24px 0 83px 0;
+}
+
+.brand-logo {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+.brand-logo img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+/* Our works styles */
+.our-works {
+  margin: 80px 100px;
+}
+.works-title {
+  font-weight: 700;
+  font-size: 45px;
+}
+hr {
+  width: 40%;
+  border: none;
+  height: 5px;
+  background-color: #ff900e;
+  margin-bottom: 50px;
+}
+
+.works-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.works-images img {
+  width: 100%;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 8px;
+}
+footer {
+  max-width: 984px;
+  height: 70px;
+  background-color: #fff4e7;
+  border-radius: 8px;
+  text-align: center;
+  margin: 130px 240px 0 240px;
+}
+.copy-right {
+  color: #424242;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+/* Media Queries */
+
+/*---------------------------
+ Responsiveness for phone  
+ --------------------------*/
+
+@media only screen and (max-width: 576px) {
+  nav {
+    flex-direction: column;
+    padding: 50px 60px;
+  }
+  nav ul {
+    flex-direction: column;
+    padding: 20px 0;
+  }
+  nav li {
+    list-style: none;
+    margin-left: 0px;
+  }
+  .highlighted-features-section {
+    flex-direction: row;
+  }
+  .banner-img img {
+    margin: 0;
+    padding: 45px 0;
+    width: 100%;
+  }
+  .featured-section {
+    margin: 50px 0;
+    flex-direction: column;
+  }
+  .featured-img {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .highlighted-features-section {
+    flex-direction: column;
+    margin: 50px 0;
+  }
+  .highlighted-features-img img {
+    width: 100%;
+    padding: 0;
+  }
+
+  .facts-sections {
+    margin: 0 50px;
+  }
+  .facts {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0;
+  }
+  .brand-logo {
+    box-shadow: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .brand-logo img {
+    padding: 10px 0;
+  }
+  /* our works style */
+  .our-works {
+    margin: 80px 30px;
+  }
+  .works-images {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  footer {
+    width: 100%;
+    margin: 0;
+  }
+}
